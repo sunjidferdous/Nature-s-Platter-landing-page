@@ -4,8 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's Platter</title>
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .sora-font {
+        font-family: "Sora", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    </style>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/ca46e4805a.js" crossorigin="anonymous"></script>
+    <!-- tailwind -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="sora-font">
+    <header class="bg-[#f0ece4]">
+        <nav>
+            <div class="">
+                <div class="flex justify-between hidden sm:flex px-10 pt-5">
+                    <div class="">
+                        <img src="c2-assets/logo-header.png" alt="">
+                    </div>
+                    <div class="flex gap-5">
+                        <div><a href="http://">Product</a></div>
+                        <div><a href="http://">Services</a></div>
+                        <div><a href="http://">Contact us</a></div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div><button class="btn btn-outline btn-success ">Login</button></div>
+                        <div><button class="btn btn-success">Register</button></div>
+                    </div>
+                </div>
+                
+                <div class=" lg:hidden md:hidden flex justify-between px-4 border-b-2 border-b-[#179800] md:border-none lg:border-none pt-4 ">
+                    <div>
+                        <img class="md:hidden lg:hidden" src="c2-assets/Screenshot_2025-02-01_131719-removebg-preview.png" alt="">
+                    </div>
+                    <div class="md:hidden lg:hidden text-[#179800] text-4xl">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <div >
+            <h1 class="md:w-1/2 text-center mx-auto text-5xl font-bold pb-11">Freshness<span class="text-[#179800]"> You Can <br>Count</span>  On, Prices You’ll Love!</h1>
+            <p class="md:w-1/3 text-center text-gray-600 mx-auto pb-11">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <img src="c2-assets/hero-vegetables.png" alt="" class="md:w-1/2 mx-auto">
+        </div>
+    </header>
+
+    <main>
+        <section class="lg:mx-35 mx-7  mt-15">
+            <h1 class="text-[#179800] font-bold pb-10 text-4xl">Services</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 justify-center gap-5">
+                <div class="bg-[#efebe3] rounded-xl flex justify-center items-center flex-col p-8">
+                    <img src="c2-assets/service.png" alt="">
+                    <h1 class="text-2xl font-bold py-4">24/7 Services</h1>
+                    <p class="text-gray-500">Our services are available round-the-clock, ensuring that you can always count on us whenever you need help. Whether it's a late-night emergency or a quick request, we're here to assist you 24 hours a day, 7 days a week.</p>
+                </div>
+                <div class="bg-[#efebe3] rounded-xl flex justify-center items-center flex-col p-8">
+                    <img src="c2-assets/delivery.png" alt="">
+                    <h1 class="text-2xl font-bold py-4">Fast Delivary</h1>
+                    <p class="text-gray-500">We pride ourselves on offering quick and reliable delivery. With our efficient logistics system, we ensure that your orders reach you in the shortest time possible, without compromising on quality or care.</p>
+                </div>
+                <div class="bg-[#efebe3]  rounded-xl flex justify-center items-center flex-col p-8">
+                    <img src="c2-assets/healthy.png" alt="">
+                    <h1 class="text-2xl font-bold py-4">Healthy Products</h1>
+                    <p class="text-gray-500">Our products are carefully selected to meet the highest standards of health and safety. We focus on providing only the best, ensuring that every item is nutritious, fresh, and beneficial for your well-being.</p>
+                </div>
+            </div>
+        </section>
+
+        
+
+    </main>
     
 </body>
 </html>
