@@ -34,7 +34,7 @@
       <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
       <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="sora-font">
+<body class="sora-font ">
     <header class="bg-[#f0ece4]">
         <nav>
             <div class="">
@@ -74,9 +74,9 @@
     </header>
 
     <main>
-        <section class="lg:mx-35 mx-7  mt-15">
-            <h1 class="text-[#179800] font-bold pb-10 text-4xl">Services</h1>
-            <div class="grid grid-cols-1 md:grid-cols-3 justify-center gap-5">
+        <section class="lg:mx-75 mx-7  my-15">
+            <h1 class="text-[#179800] font-bold pb-10 text-4xl md:px-75">Services</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 justify-center md:px-75 gap-5">
                 <div class="bg-[#efebe3] rounded-xl flex justify-center items-center flex-col p-8">
                     <img src="c2-assets/service.png" alt="">
                     <h1 class="text-2xl font-bold py-4">24/7 Services</h1>
@@ -94,10 +94,196 @@
                 </div>
             </div>
         </section>
+        <!-- popular products -->
+        <section class="p-7 bg-[#efebe3] overflow-hidden  h-250 md:h-140 ">
+            <h1 class="text-[#179800] font-bold pb-10 text-4xl md:px-75  ">Popular Products</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 md:px-75 gap-5">
+                <!-- first one? -->
+                <!-- can't fix gradient so i make solid green in orded to show others-->
+	            <div class="bg-gradient-to-br from-green-600  to-green-100 bg-green-400 md:h-100 w-113 md:w-110 rounded-xl p-8 relative gap-4">
+                    <h1 class="text-3xl text-white font-bold pb-4">30% off</h1>
+                    <p class="text-gray-500 py-4">Discover a world of treats, toys, and essentials handpicked for</p>
+                    <div class="pb-20">
+                        <button class="btn">Buy Now</button>
+                    </div>
+                    <div>
+                        <img src="c2-assets/vegetable-offer.png" alt="" class="absolute bottom-0 right-0 w-2/3 h-2/3">
+                    </div>
+                </div>
 
-        
+                <!-- six items  -->
+
+                <div>
+                    <div class="grid grid-rows-4 md:grid-rows-3">
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                            <div class="flex bg-white p-2.5 rounded-lg">
+                                <div class="bg-[#efebe3] rounded-lg">
+                                    <img src="c2-assets/tomato.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="flex gap-3">
+                                        <i class="fa-solid fa-star text-yellow-500"></i>
+                                        <h1>4.5</h1>
+                                    </div>
+                                    <h1>TOmato 500gm</h1>
+                                    <p>$39.99</p>
+                                </div>
+                                
+                            </div>
+                            <div class="flex bg-white p-2.5 rounded-lg">
+                                <div class="bg-[#efebe3] rounded-lg">
+                                    <img src="c2-assets/onion.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="flex gap-3">
+                                        <i class="fa-solid fa-star text-yellow-500"></i>
+                                        <h1>4.5</h1>
+                                    </div>
+                                    <h1>Potato 1kg</h1>
+                                    <p>$39.99</p>
+                                </div>
+                                
+                            </div>
+                            <div class="flex bg-white p-2.5 rounded-lg">
+                                <div class="bg-[#efebe3] rounded-lg">
+                                    <img src="c2-assets/onion.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="flex gap-3">
+                                        <i class="fa-solid fa-star text-yellow-500"></i>
+                                        <h1>4.5</h1>
+                                    </div>
+                                    <h1>Onion 1KG</h1>
+                                    <p>$39.99</p>
+                                </div>
+                                
+                            </div>
+                            <div class="flex bg-white p-2.5 rounded-lg">
+                                <div class="bg-[#efebe3] rounded-lg">
+                                    <img src="c2-assets/tomato.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="flex gap-3">
+                                        <i class="fa-solid fa-star text-yellow-500"></i>
+                                        <h1>4.5</h1>
+                                    </div>
+                                    <h1>TOmato 500 gm</h1>
+                                    <p>$39.99</p>
+                                </div>
+                                
+                            </div>
+                            <div class="flex bg-white p-2.5 rounded-lg">
+                                <div class="bg-[#efebe3] rounded-lg">
+                                    <img src="c2-assets/potato.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="flex gap-3">
+                                        <i class="fa-solid fa-star text-yellow-500"></i>
+                                        <h1>4.5</h1>
+                                    </div>
+                                    <h1>Potato 1KG</h1>
+                                    <p>$39.99</p>
+                                </div>
+                                
+                            </div>
+                            <div class="flex bg-white p-2.5 rounded-lg">
+                                <div class="bg-[#efebe3] rounded-lg">
+                                    <img src="c2-assets/onion.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="flex gap-3">
+                                        <i class="fa-solid fa-star text-yellow-500"></i>
+                                        <h1>4.5</h1>
+                                    </div>
+                                    <h1>Onion 1KG</h1>
+                                    <p>$39.99</p>
+                                </div>
+                                
+                            </div>
+                            <div class="flex bg-white p-2.5 rounded-lg">
+                                <div class="bg-[#efebe3] rounded-lg">
+                                    <img src="c2-assets/onion.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="flex gap-3">
+                                        <i class="fa-solid fa-star text-yellow-500"></i>
+                                        <h1>4.5</h1>
+                                    </div>
+                                    <h1>Onion 1KG</h1>
+                                    <p>$39.99</p>
+                                </div>
+                                
+                            </div>
+                            <div class="flex bg-white p-2.5 rounded-lg">
+                                <div class="bg-[#efebe3] rounded-lg">
+                                    <img src="c2-assets/onion.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="flex gap-3">
+                                        <i class="fa-solid fa-star text-yellow-500"></i>
+                                        <h1>4.5</h1>
+                                    </div>
+                                    <h1>Onion 1KG</h1>
+                                    <p>$39.99</p>
+                                </div>
+                                
+                            </div>
+    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+
+        </section>
+        <section class=" mt-15">
+            <div>
+                <h1 class="text-[#179800] font-bold pb-10 text-4xl md:px-75">Arrival & Offers</h1>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 md:px-75 gap-10">
+                <div class="bg-[#115414] rounded-xl flex place-items-center p-10">
+                    <div class="justify-items-center">
+                        <div class="pb-5"><img src="c2-assets/dawat-logo.png" alt=""></div>
+                        <div class="pb-5"><button class="btn btn-accent text-white bg-green-600 border-none">Cook Exotic Dishes</button></div>
+                        <div class="pb-5"><h1 class="text-white text-3xl">UP to <span class="font-bold">20% OFF</span></h1></div>
+                    </div>
+                    <div>
+                        <img src="c2-assets/dawat-mock-up.png" alt="">
+                    </div>
+
+                </div>
+
+
+                <div class="bg-[#102861] rounded-xl flex place-items-center p-10 gap-10">
+                    <div class="justify-items-center">
+                        <div class="pb-5"><img src="c2-assets/india-gate-logo.png" alt=""></div>
+                        <div class="pb-5"><button class="btn btn-accent text-white bg-green-600 border-none">World's No.1 Rice</button></div>
+                        <div class="pb-5"><h1 class="text-white text-3xl">UP to <span class="font-bold">40% OFF</span></h1></div>
+                    </div>
+                    <div>
+                        <img src="c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
 
     </main>
+
+
+    <footer>
+        
+    </footer>
     
 </body>
 </html>
